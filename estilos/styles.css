@@ -1,0 +1,48 @@
+
+body{
+    background: linear-gradient( to bottom , black 50%, yellow);
+    
+    
+    font-family: 'MyWebFont'; src: url('WebFont.eot'); src: url('WebFont.eot?#iefix') format('embedded-opentype'), url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'), url('WebFont.svg#webfont') format('svg');    
+}
+header img{
+    height: 7.5rem;
+    width: 6.25rem;
+}
+
+header h1{
+    color: rgba(248, 245, 245, 0.884);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.aheder{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 5px;
+    background: linear-gradient(180deg, #f01b14 0%, #caf312 100%);
+    
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%,yellow  100%);
+    /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%); */
+    margin: 5px;
+    padding: 3px 3px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:black;            
+    font-size: 13px;
+    border-radius: 7px;
+    
+  }
+
+
+
+ .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
